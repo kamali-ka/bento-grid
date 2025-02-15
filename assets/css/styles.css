@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Inter', sans-serif;
+}
+
+.bento-item {
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.purple {
+    background: #6c4bcf;
+    color: white;
+}
+
+.yellow {
+    background: #f4b942;
+    color: black;
+}
+
+.yellow_1 {
+    background: #f1d59f;
+    color: black;
+}
+
+.light-purple {
+    background: #d4c5f9;
+    color: black;
+}
+
+.stars {
+    color: #ffd700;
+    font-size: 2rem;
+}
+
+.bar-chart {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 120px;
+    gap: 15px;
+    padding: 15px;
+    position: relative;
+    top: 25px;
+}
+
+.bar {
+    width: 25px;
+    background: #6c4bcf;
+    border-radius: 5px;
+}
+
+.bar:nth-child(1) {
+    height: 50px;
+}
+
+.bar:nth-child(2) {
+    height: 90px;
+}
+
+.bar:nth-child(3) {
+    height: 120px;
+}
+
+.bar:nth-child(4) {
+    height: 70px;
+}
+
+.bar:nth-child(5) {
+    height: 100px;
+}
+
+.calendar {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.calendar table {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.calendar th,
+.calendar td {
+    padding: 10px;
+    font-weight: bold;
+}
+
+.btn-custom {
+    background: #f4b942;
+    padding: 12px 18px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.span_1 {
+    color: #6c4bcf;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.span_2{
+    color: #f4b942;
+}
+.span_3{
+    font-size: 50px;
+}

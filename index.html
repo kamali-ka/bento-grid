@@ -1,123 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bento Grid</title>
+    <title>Bento Grid - Bootstrap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body>
-   <div class="container">
-    <div class="create_post">
-        <p>Create and schedule content <span>quicker.</span></p>
-        <button class="post">Create post</button>
-    </div>
-    <div class="ai_use">
-        <p>Write your content using AI.</p>
-        <div class="message">
-            <div class="customer">
-                Give me a 5 tips to growth my follower on insta!
+
+    <div class="container mt-4">
+        <h2 class="text-center mb-4">Bento Grid Layout</h2>
+        <div class="row g-3">
+            <div class="col-12 col-md-4">
+                <div class="bento-item yellow_1">Create and schedule content <span class="span_1"> quicker.</span><br><button
+                        class="btn-custom mt-3">Create Post</button></div>
             </div>
-            <div class="ai">
-                <p>Certainly! Here are five tips to help you grow your Instagram...</p>
-            </div>
-        </div>
-    </div>
-   </div> 
-   <div class="container_2">
-     <div class="social">
-        <p>Social Media <span>10x</span><span>Faster</span> with AI</p>
-        <div class="star">
-            <img src="star.png" alt="">
-        </div>
-        <p>Over 4,000 5-star reviews</p>
-     </div>
-     
-   </div>
-   <div class="container_3">
-    <div class="multiple">
-        <div class="instagram">
-            <div class="logo">logo</div>
-            <p>@YourCo</p>
-            <p>12k Followes</p>
-        </div>
-<div class="twit">
-    <div class="logo">Logo</div>
-    <p>@YourCo</p>
-    <p>10k Followers</p>
-</div>
-    </div>
-    <div class="schedule">
-        <p>Maintain a consistent posting schedule.</p>
-        <div class="calender">
-            <p>August2024</p>
-            <p>Week1</p>
-            <p>ticks</p>
-        </div>
-    </div>
-   </div>
-   <div class="container_4">
-    <div class="audience">
-        <p>>56%</p>
-        <p>Faster audience growth</p>
-        <div class="avatar">
-            <img src="person1" alt=""><img src="person2" alt=""><img src="person3" alt="">
-        </div>
-    </div>
-    <div class="followers">
-        <div class="growth"></div>
-        <div class="follower">
-            <div class="arrow">
-                <p>Followers</p>
-                <p>89,532</p>
-                <p>+120%</p>
-            </div>
-        </div>
-        <div class="content">
-            <p>Grow followers with non-stop content.</p>
-        </div>
-    </div>
-   </div>
-   <div class="container_4">
-    <div class="media">
-        <p>Schedule to social media.</p>
-        <div class="calender2">
-            <div class="heading">
-                <p>Best Time to post</p>
-                <hr>
+            <div class="col-12 col-md-8">
+                <div class="bento-item purple">Social Media <span class="span_2"> 10x</span> Faster with AI<br>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
                 </div>
             </div>
-            <div class="contents">
-                <div class="days">
-                    <p class="day">Mon</p>
-                    <p class="day">Tue</p>
-                    <p class="day">Wed</p>
-                    <p class="day">Thu</p>
-                    <p class="day">Fri</p>
-                    <p class="day">Sat</p>
-                    <p class="day">Sun</p>
-                   </div>
-                   <div class="active">
-                       <div class="actives"></div>
-                       <div class="actives"></div>
-                       <div class="actives"></div>
-                       <div class="actives"></div>
-                       <div class="actives"></div>
-                   </div>
-                   <div class="time">
-                    <p class="times">12a</p>
-                    <p class="times">3a</p>
-                    <p class="times">6a</p>
-                    <p class="times">12p</p>
-                    <p class="times">1p</p>
-                    <p class="times">2p</p>
-                    <p class="times">6p</p>
+            <div class="col-12 col-md-4">
+                <div class="bento-item light-purple">Schedule to social media.<br>
+                    <div class="bar-chart">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </div>
+                </div>
             </div>
-            <div class="content_3">
-                <p>Optimize post timings to publish content at the perfect time for your audience</p>
+            <div class="col-12 col-md-4">
+                <div class="bento-item yellow">Write your content using AI.</div>
+            </div>
+            <div class="col-12 col-md-4">
+            
+                <div class="bento-item">Manage multiple accounts and platforms.</div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="bento-item yellow">Maintain a consistent posting schedule.<br>
+                    <div class="calendar">
+                        <table>
+                            <tr>
+                                <th>Mon</th>
+                                <th>Tue</th>
+                                <th>Wed</th>
+                                <th>Thu</th>
+                                <th>Fri</th>
+                            </tr>
+                            <tr>
+                                <td>✔</td>
+                                <td>✔</td>
+                                <td>✔</td>
+                                <td>✔</td>
+                                <td>✔</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="bento-item"> <span class="span_3">>56% </span> faster audience growth</div>
+            </div>
+            <div class="col-12 col-md-8">
+                <div class="bento-item purple">Grow followers with non-stop content.</div>
             </div>
         </div>
     </div>
-   </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
